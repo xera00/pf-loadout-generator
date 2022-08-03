@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>pf randomizer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="pf_lg_icon2.ico">
+</head>
+
+<body>
+  <h3>phantom forces loadout generator</h3>
+  <h4>reference version: 6.0.0ab <br> if something breaks or is missing (attachments wise): 
+    ping me at xera#6497 in the stylis studios discord server with a screenshot of the console error or the incorrect loadout
+    (press ctrl+shift+i to open console)</h4>
+
+  <button onclick="generateloadout()">randomize loadout</button><br>
+  <!--<p id="temp2"></p>-->
+  <!--<p id="temp"></p>-->
+
+  <p id="weapon1">primary: <p id="optic1">optic:</p> <p id="barrel1">barrel:</p> <p id="underbarrel1">underbarrel:</p> <p id="other1">other:</p> <p id="ammo1">ammo:</p> </p>
+  <br>
+  <p id="weapon2">secondary: <p id="optic2">optic:</p>  <p id="barrel2">barrel:</p> <p id="other2">other:</p> <p id="ammo2">ammo:</p> </p>
+  <br>
+  <p id="weapon3">grenade: </p>
+  <br>
+  <p id="weapon4">melee: </p>
+
+<script src="loadout_randomizer.js"></script>
+
+</body>
+</html>
