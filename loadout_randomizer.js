@@ -3105,6 +3105,36 @@ function generateloadout()
       document.getElementById("other1").innerHTML = "other: " + an94_other_sel;
       document.getElementById("ammo1").innerHTML = "ammo: " + an94_ammo_sel;
     }
+    else if (primary_gun_selection == "m16a1")
+    {
+      var m16a1_optic_sel = m16a1optics[Math.floor(Math.random()*m16a1optics.length)];
+      var m16a1_barrel_sel = m16a1barrels[Math.floor(Math.random()*m16a1barrels.length)];
+      var m16a1_underbarrel_sel = m16a1underbarrels[Math.floor(Math.random()*m16a1underbarrels.length)];
+      var m16a1_other_sel = m16a1others[Math.floor(Math.random()*m16a1others.length)];
+      var m16a1_ammo_sel = m16a1ammos[Math.floor(Math.random()*m16a1ammos.length)];
+
+      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
+      document.getElementById("optic1").innerHTML = "optic: " + m16a1_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + m16a1_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + m16a1_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + m16a1_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + m16a1_ammo_sel;
+    }
+    else if (primary_gun_selection == "colt mars")
+    {
+      var coltmars_optic_sel = coltmarsoptics[Math.floor(Math.random()*coltmarsoptics.length)];
+      var coltmars_barrel_sel = coltmarsbarrels[Math.floor(Math.random()*coltmarsbarrels.length)];
+      var coltmars_underbarrel_sel = coltmarsunderbarrels[Math.floor(Math.random()*coltmarsunderbarrels.length)];
+      var coltmars_other_sel = coltmarsothers[Math.floor(Math.random()*coltmarsothers.length)];
+      var coltmars_ammo_sel = coltmarsammos[Math.floor(Math.random()*coltmarsammos.length)];
+
+      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
+      document.getElementById("optic1").innerHTML = "optic: " + coltmars_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + coltmars_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + coltmars_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + coltmars_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + coltmars_ammo_sel;
+    }
     else if (primary_gun_selection == "as val")
     {
       var asval_optic_sel = asvaloptics[Math.floor(Math.random()*asvaloptics.length)];
@@ -5684,39 +5714,9 @@ function generateloadout()
       document.getElementById("other2").innerHTML = "other: " + sass308_other_sel;
       document.getElementById("ammo2").innerHTML = "ammo: " + sass308_ammo_sel;
     }
-     else if (primary_gun_selection == "m16a1")
-    {
-      var m16a1_optic_sel = m16a1optics[Math.floor(Math.random()*m16a1optics.length)];
-      var m16a1_barrel_sel = m16a1barrels[Math.floor(Math.random()*m16a1barrels.length)];
-      var m16a1_underbarrel_sel = m16a1underbarrels[Math.floor(Math.random()*m16a1underbarrels.length)];
-      var m16a1_other_sel = m16a1others[Math.floor(Math.random()*m16a1others.length)];
-      var m16a1_ammo_sel = m16a1ammos[Math.floor(Math.random()*m16a1ammos.length)];
-
-      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
-      document.getElementById("optic1").innerHTML = "optic: " + m16a1_optic_sel;
-      document.getElementById("barrel1").innerHTML = "barrel: " + m16a1_barrel_sel;
-      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + m16a1_underbarrel_sel;
-      document.getElementById("other1").innerHTML = "other: " + m16a1_other_sel;
-      document.getElementById("ammo1").innerHTML = "ammo: " + m16a1_ammo_sel;
-    }
-     else if (primary_gun_selection == "colt mars")
-    {
-      var coltmars_optic_sel = coltmarsoptics[Math.floor(Math.random()*coltmarsoptics.length)];
-      var coltmars_barrel_sel = coltmarsbarrels[Math.floor(Math.random()*coltmarsbarrels.length)];
-      var coltmars_underbarrel_sel =          coltmarsunderbarrels[Math.floor(Math.random()*coltmarsunderbarrels.length)];
-      var coltmars_other_sel = coltmarsothers[Math.floor(Math.random()*coltmarsothers.length)];
-      var coltmars_ammo_sel = coltmarsammos[Math.floor(Math.random()*coltmarsammos.length)];
-
-      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
-      document.getElementById("optic1").innerHTML = "optic: " + coltmars_optic_sel;
-      document.getElementById("barrel1").innerHTML = "barrel: " + coltmars_barrel_sel;
-      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + coltmars_underbarrel_sel;
-      document.getElementById("other1").innerHTML = "other: " + coltmars_other_sel;
-      document.getElementById("ammo1").innerHTML = "ammo: " + coltmars_ammo_sel;
-    }
     else
     {
-      document.getElementById("temp").innerHTML = "gun that is broken " + secondary_gun_selection;
+      document.getElementById("weapon1").innerHTML = "error";
       document.getElementById("weapon2").innerHTML = "error";
     }
 
