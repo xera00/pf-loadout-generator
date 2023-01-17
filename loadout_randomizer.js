@@ -598,7 +598,9 @@ var carbine1858barrels = Array("flash hider", "compensator", "muzzle brake", "t-
 
 var carbine1858underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", "angled grip", "potato grip", "skeleton grip", "folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
 
-var carbine1858others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight");
+var carbine1858others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", 
+                              "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", 
+                              "canted acog sight", "canted animu sight", "canted furro sight");
 
 var carbine1858ammos = Array("tracerless", "snake shot", ".36 caliber");
 
@@ -3845,7 +3847,7 @@ function generateloadout()
       var carbine1858_optic_sel = carbine1858optics[Math.floor(Math.random()*carbine1858optics.length)];
       var carbine1858_barrel_sel = carbine1858barrels[Math.floor(Math.random()*carbine1858barrels.length)];
       var carbine1858_underbarrel_sel =          carbine1858underbarrels[Math.floor(Math.random()*carbine1858underbarrels.length)];
-      var carbine1858_others_sel = [Math.floor(Math.random()*carbine1858others.length)];
+      var carbine1858_others_sel = carbine1858others[Math.floor(Math.random()*carbine1858underbarrels.length)];
       var carbine1858_ammo_sel = carbine1858ammos[Math.floor(Math.random()*carbine1858ammos.length)];
 
       document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
