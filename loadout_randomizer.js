@@ -2999,25 +2999,27 @@ var m16a1optics = Array("h&k sight", "full ring sight", "half ring sight",
 "backup sight", "steyr sight", "double open sight", "izhmash sight", 
 "super slim sight", "diopter sight", "buis sight", "kel-tec sight", 
 "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", 
-"herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", 
+"herstal sight", "iwi sight", "carry handle sight", 
 "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", 
 "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", 
 "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", 
 "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", 
-"microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", 
-"m145", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "ta11 acog", "hensoldt 3x scope", "ta01 acog", "oeg", "maglite", 
-"amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight");
+"microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "colt retro scope", "c79", "pk-a", 
+"m145", "pso-1 scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "ta11 acog", "hensoldt 3x scope", "ta01 acog", "hensoldt z24", "swarovski scope", 
+"oeg", "maglite", "pu-1 scope", "ff 3x nv", "pso-1m2 scope", "electra 5x", "reflector scope", "vcog 8x scope", "sustat scope", "global offensive", 
+"amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "maglite");
 
 var m16a1barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
-"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "osprey suppressor", "short barrel");
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter");
 
 var m16a1underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
 "angled grip", "potato grip", "skeleton grip", 
-"folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip", "romanian grip");
+"folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
 
-var m16a1others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser");
+var m16a1others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight"
+, "canted acog scope", "canted animu sight", "canted furro sight");
 
-var m16a1ammos = Array("armor piercing", "hollow point", "tracerless", "silent", ".358 win");
+var m16a1ammos = Array("armor piercing", "hollow point", "tracerless", "m855", ".223 rem");
 
 //colt mars attachments
 var coltmarsoptics = Array("h&k sight", "full ring sight", "half ring sight", 
