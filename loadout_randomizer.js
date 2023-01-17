@@ -13,8 +13,8 @@ var primary = Array("ak12", "an-94", "as val", "scar-l",
 "fal para shorty", "kriss vector", "pp-19 bizon", "mp40", "x95 smg", "tommy gun", "rama 1130", "mk11", 
 "sks", "sl-8", "vss vintorez", "msg90", "m21", "beowulf tcr", "sa58 spr", "scar ssr", "colt lmg", 
 "m60", "aug hbar", "mg36", "rpk12", "l86 lsw", "rpk", "hk21e", "scar hamr", "rpk74", "mg3kws", 
-"intervention", "remington 700", "dragunov svu", "aws", "bfg 50", "awm", "trg-42", "mosin nagant", 
-"dragunov svds", "m1903", "k14", "hecate ii", "ft300", "m107", "steyr scout", "wa2000", "ntw-20");
+"intervention", "model 700", "dragunov svu", "aws", "bfg 50", "awm", "trg-42", "mosin nagant", 
+"dragunov svds", "m1903", "k14", "hecate ii", "ft300", "m107", "steyr scout", "wa2000", "ntw-20", "m16a1");
 
 //secondary gun list
 var secondary = Array("boxy buster", "m9", "g17", "m1911a1", 
@@ -22,7 +22,7 @@ var secondary = Array("boxy buster", "m9", "g17", "m1911a1",
 "hardballer", "izhevsk pb", "makarov pm", "gb-22", "desert eagle xix", "am iii", "gyrojet mark i", 
 "gsp", "grizzly", "m2011", "alien", "af2011-a1", "g18c", "93r", "pp-2000", "tec-9", "micro uzi", 
 "skorpion vz.61", "asmi", "mp1911", "arm pistol", "mp412 rex", "mateba 6", 
-"1858 new army", "redhawk 44", "judge", "executioner", "super shorty", "sfg 50", "m79 thumper", "coilgun", 
+"1858 new army", "redhawk 44", "judge", "executioner", "super shorty", "sfg 50", "m79 thumper", "advanced coilgun", 
 "sawed off", "saiga-12u", "obrez", "sass 308");
 
 //grenade list
@@ -1492,8 +1492,8 @@ var interventionothers = Array("flashlight", "red laser", "green laser", "blue l
 
 var interventionammos = Array("tracerless", ".375 cheytac");
 
-//remington 700 attachments
-var remington700optics = Array("h&k sight", "full ring sight", "half ring sight", 
+//model 700 attachments
+var model700optics = Array("h&k sight", "full ring sight", "half ring sight", 
 "backup sight", "steyr sight", "double open sight", "izhmash sight", 
 "super slim sight", "diopter sight", "buis sight", "kel-tec sight", 
 "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", 
@@ -1510,17 +1510,17 @@ var remington700optics = Array("h&k sight", "full ring sight", "half ring sight"
 "anti sight", "pso-1 scope", "pso-1m2 scope", "leupold m8-2x", "klassik lm", "leupold m8-6x", "hi-power 8-32", "kom 10x42", "sidewinder ed", "leupold mark 4", "pm ii"
 , "sagittarius 40x", "nxs 8-32", "none");
 
-var remington700barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
+var model700barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
 "suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "heavy barrel", "light barrel");
 
-var remington700underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
+var model700underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
 "angled grip", "potato grip", "skeleton grip", 
 "folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
 
-var remington700others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
+var model700others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
 "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "remove stock", "s pull bolt", "extended magazine");
 
-var remington700ammos = Array("tracerless", "silent");
+var model700ammos = Array("tracerless", "silent");
 
 //dragunov svu attachments
 var dragunovsvuoptics = Array("h&k sight", "full ring sight", "half ring sight", 
@@ -4733,20 +4733,20 @@ function generateloadout()
       document.getElementById("other1").innerHTML = "other: " + intervention_other_sel;
       document.getElementById("ammo1").innerHTML = "ammo: " + intervention_ammo_sel;
     }
-    else if (primary_gun_selection == "remington 700")
+    else if (primary_gun_selection == "model 700")
     {
-      var remington700_optic_sel = remington700optics[Math.floor(Math.random()*remington700optics.length)];
-      var remington700_barrel_sel = remington700barrels[Math.floor(Math.random()*remington700barrels.length)];
-      var remington700_underbarrel_sel = remington700underbarrels[Math.floor(Math.random()*remington700underbarrels.length)];
-      var remington700_other_sel = remington700others[Math.floor(Math.random()*remington700others.length)];
-      var remington700_ammo_sel = remington700ammos[Math.floor(Math.random()*remington700ammos.length)];
+      var model700_optic_sel = model700optics[Math.floor(Math.random()*model700optics.length)];
+      var model700_barrel_sel = model700barrels[Math.floor(Math.random()*model700barrels.length)];
+      var model700_underbarrel_sel = model700underbarrels[Math.floor(Math.random()*model700underbarrels.length)];
+      var model700_other_sel = model700others[Math.floor(Math.random()*model700others.length)];
+      var model700_ammo_sel = model700ammos[Math.floor(Math.random()*model700ammos.length)];
 
       document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
-      document.getElementById("optic1").innerHTML = "optic: " + remington700_optic_sel;
-      document.getElementById("barrel1").innerHTML = "barrel: " + remington700_barrel_sel;
-      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + remington700_underbarrel_sel;
-      document.getElementById("other1").innerHTML = "other: " + remington700_other_sel;
-      document.getElementById("ammo1").innerHTML = "ammo: " + remington700_ammo_sel;
+      document.getElementById("optic1").innerHTML = "optic: " + model700_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + model700_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + model700_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + model700_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + model700_ammo_sel;
     }
     else if (primary_gun_selection == "dragunov svu")
     {
@@ -5552,7 +5552,7 @@ function generateloadout()
       document.getElementById("other2").innerHTML = "other: " + m79thumper_other_sel;
       document.getElementById("ammo2").innerHTML = "ammo: " + m79thumper_ammo_sel;
     }
-    else if (secondary_gun_selection == "coilgun")
+    else if (secondary_gun_selection == "advanced coilgun")
     {
       var coilgun_optic_sel = coilgunoptics[Math.floor(Math.random()*coilgunoptics.length)];
       var coilgun_barrel_sel = coilgunbarrels[Math.floor(Math.random()*coilgunbarrels.length)];
