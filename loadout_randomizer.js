@@ -9,7 +9,7 @@ var primary = Array("ak12", "an-94", "as val", "scar-l",
 "ak105", "jury", "kac srr", "gyrojet carbine", "c8a2", "x95r", "hk51b", "can cannon", "ksg 12", 
 "remington 870", "dbv12", "ks-23m", "saiga-12", "stevens db", "e gun", "aa-12", "spas-12", 
 "dt11 pro", "usas-12", "mp5k", "ump45", "g36c", "mp7", "mac10", "p90", "mp5", "colt smg 633", "l2a3", 
-"mp5sd", "mp10", "m3a1", "mp5/10", "uzi", "aug a3 para", "k7", "aks74u", "ppsh-41", 
+"mp5sd", "mp10", "m3a1", "mp5/10", "uzi", "aug a3 para xs", "k7", "aks74u", "ppsh-41", 
 "fal para shorty", "kriss vector", "pp-19 bizon", "mp40", "x95 smg", "tommy gun", "rama 1130", "mk11", 
 "sks", "sl-8", "vss vintorez", "msg90", "m21", "beowulf tcr", "sa58 spr", "scar ssr", "colt lmg", 
 "m60", "aug hbar", "mg36", "rpk12", "l86 lsw", "rpk", "hk21e", "hamr iar", "rpk74", "mg3kws", 
@@ -959,16 +959,16 @@ var uziothers = Array("flashlight", "red laser", "green laser", "blue laser", "y
 
 var uziammos = Array("armor piercing", "hollow point", "tracerless", "plus p", ".41 ae", ".22 lr");
 
-//aug a3 para attachments
-var auga3paraoptics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "pso-1 scope", "pso-1m2 scope");
+//aug a3 para xs attachments
+var auga3paraxsoptics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "pso-1 scope", "pso-1m2 scope");
 
-var auga3parabarrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", "muffler", "suppressor", "r2 suppresor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "oil filter", "osprey suppressor", "long barrel");
+var auga3paraxsbarrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", "muffler", "suppressor", "r2 suppresor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "oil filter", "osprey suppressor", "long barrel");
 
-var auga3paraunderbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", "angled grip", "potato grip", "skeleton grip", "folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
+var auga3paraxsunderbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", "angled grip", "potato grip", "skeleton grip", "folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
 
-var auga3paraothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight");
+var auga3paraxsothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight");
 
-var auga3paraammos = Array("armor piercing", "hollow point", "tracerless", "plus p", ".40 s&w");
+var auga3paraxsammos = Array("armor piercing", "hollow point", "tracerless", "plus p", ".40 s&w");
 
 //k7 attachments
 var k7optics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "pso-1 scope", "pso-1m2 scope");
@@ -4307,20 +4307,20 @@ function generateloadout()
       document.getElementById("other1").innerHTML = "other: " + uzi_other_sel;
       document.getElementById("ammo1").innerHTML = "ammo: " + uzi_ammo_sel;
     }
-    else if (primary_gun_selection == "aug a3 para")
+    else if (primary_gun_selection == "aug a3 para xs")
     {
-      var auga3para_optic_sel = auga3paraoptics[Math.floor(Math.random()*auga3paraoptics.length)];
-      var auga3para_barrel_sel = auga3parabarrels[Math.floor(Math.random()*auga3parabarrels.length)];
-      var auga3para_underbarrel_sel = auga3paraunderbarrels[Math.floor(Math.random()*auga3paraunderbarrels.length)];
-      var auga3para_other_sel = auga3paraothers[Math.floor(Math.random()*auga3paraothers.length)];
-      var auga3para_ammo_sel = auga3paraammos[Math.floor(Math.random()*auga3paraammos.length)];
+      var auga3paraxs_optic_sel = auga3paraxsoptics[Math.floor(Math.random()*auga3paraxsoptics.length)];
+      var auga3paraxs_barrel_sel = auga3paraxsbarrels[Math.floor(Math.random()*auga3paraxsbarrels.length)];
+      var auga3paraxs_underbarrel_sel = auga3paraunderbarrels[Math.floor(Math.random()*auga3paraxsunderbarrels.length)];
+      var auga3paraxs_other_sel = auga3paraxsothers[Math.floor(Math.random()*auga3paraxsothers.length)];
+      var auga3paraxs_ammo_sel = auga3paraxsammos[Math.floor(Math.random()*auga3paraxsammos.length)];
 
       document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
-      document.getElementById("optic1").innerHTML = "optic: " + auga3para_optic_sel;
-      document.getElementById("barrel1").innerHTML = "barrel: " + auga3para_barrel_sel;
-      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + auga3para_underbarrel_sel;
-      document.getElementById("other1").innerHTML = "other: " + auga3para_other_sel;
-      document.getElementById("ammo1").innerHTML = "ammo: " + auga3para_ammo_sel;
+      document.getElementById("optic1").innerHTML = "optic: " + auga3paraxs_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + auga3paraxs_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + auga3paraxs_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + auga3paraxs_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + auga3paraxs_ammo_sel;
     }
     else if (primary_gun_selection == "k7")
     {
