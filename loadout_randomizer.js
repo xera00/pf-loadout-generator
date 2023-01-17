@@ -187,7 +187,7 @@ var ak47underbarrels = Array("flashlight", "red laser", "green laser", "blue las
 
 var ak47others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "collapsible stock", "remove stock", "retract stock");
 
-var ak47ammos = Array("armor piercing", "hollow point", "tracerless", ".366 (buckshot)", ".366 (slugs)");
+var ak47ammos = Array("armor piercing", "hollow point", "tracerless");
 
 //aug a3 attachments
 var auga3optics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "pso-1 scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "pso-1m2 scope", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight");
@@ -242,7 +242,7 @@ var akmunderbarrels = Array("flashlight", "red laser", "green laser", "blue lase
 
 var akmothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "retract stock", "remove stock", "collaspible stock");
 
-var akmammos = Array("armor piercing", "hollow point", "tracerless", ".366 (buckshot)", ".366 (slugs)", "banana");
+var akmammos = Array("armor piercing", "hollow point", "tracerless", ".366 shot", ".366 sp", "banana");
 
 //ak103 attachments
 var ak103optics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "pso-1 scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "pso-1m2 scope", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight");
@@ -291,13 +291,15 @@ var m231ammos = Array("armor piercing", "hollow point", "tracerless", ".223 rem"
 //c7a2 attachments
 var c7a2optics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "pso-1 scope", "pso-1m2 scope");
 
-var c7a2barrels = Array("carbine barrel", "flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", "suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter");
+var c7a2barrels = Array("carbine barrel", "flash hider", "compensator", "muzzle brake", "t-brake", 
+                        "x-ring", "halbek device", "loudener", "muzzle booster", "suppressor", "r2 suppressor", 
+                        "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "lsw barrel");
 
 var c7a2underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", "angled grip", "potato grip", "skeleton grip", "folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
 
 var c7a2others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "remove stock", "retract stock", "full stock");
 
-var c7a2ammos = Array("armor piercing", "hollow point", "tracerless", ".223 rem", "7.62x39mm", ".45 acp", ".20 tact");
+var c7a2ammos = Array("armor piercing", "hollow point", "tracerless", ".223 rem", "7.62x39mm", ".20 tact");
 
 //stg 44 attachments
 var stg44optics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "pso-1 scope", "pso-1m2 scope");
@@ -1107,7 +1109,7 @@ var sksunderbarrels = Array("flashlight", "red laser", "green laser", "blue lase
 
 var sksothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "retract stock", "full stock");
 
-var sksammos = Array("armor piercing", "hollow point", "tracerless", ".366 (buckshot)", ".366 (slugs)");
+var sksammos = Array("armor piercing", "hollow point", "tracerless", ".366 shot", ".366 tkm polymer slug");
 
 //sl8 attachments
 var sl8optics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "pso-1 scope", "pso-1m2 scope", "hensoldt dual optic");
@@ -1160,9 +1162,11 @@ var beowulftcrbarrels = Array("flash hider", "compensator", "muzzle brake", "t-b
 
 var beowulftcrunderbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", "angled grip", "potato grip", "skeleton grip", "folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
 
-var beowulftcrothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "remove stock", "retract stock", "full stock");
+var beowulftcrothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", 
+                             "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", 
+                             "canted acog sight", "canted animu sight", "canted furro sight", "remove stock", "retract stock", "full stock", "binary trigger");
 
-var beowulftcrammos = Array("armor piercing", "hollow point", "tracerless", ".458 socom", "duplex / binary kit");
+var beowulftcrammos = Array("armor piercing", "hollow point", "tracerless", ".458 socom", "5.56x45mm");
 
 //sa58 spr attachments
 var sa58sproptics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", "steyr sight", "double open sight", "izhmash sight", "super slim sight", "diopter sight", "buis sight", "kel-tec sight", "kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", "quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", "z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", "m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", "hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight", "pso-1 scope", "pso-1m2 scope");
@@ -1351,7 +1355,7 @@ var rpkunderbarrels = Array("flashlight", "red laser", "green laser", "blue lase
 var rpkothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
 "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight");
 
-var rpkammos = Array("armor piercing", "hollow point", "tracerless", ".366 (buckshot)", ".366 (slugs)");
+var rpkammos = Array("armor piercing", "hollow point", "tracerless");
 
 //hk21e attachments
 var hk21eoptics = Array("h&k sight", "full ring sight", "half ring sight", 
@@ -1409,7 +1413,7 @@ var hamriarunderbarrels = Array("flashlight", "red laser", "green laser", "blue 
 var hamriarothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
 "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "remove stock", "retract stock");
 
-var hamriarammos = Array("armor piercing", "hollow point", "tracerless", ".223 rem", "9x19mm");
+var hamriarammos = Array("armor piercing", "hollow point", "tracerless", ".223 rem", "30rd stanag");
 
 //rpk74 attachments
 var rpk74optics = Array("h&k sight", "full ring sight", "half ring sight", 
@@ -1548,7 +1552,7 @@ var dragunovsvuoptics = Array("h&k sight", "full ring sight", "half ring sight",
 , "sagittarius 40x", "nxs 8-32", "none");
 
 var dragunovsvubarrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
-"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "heavy barrel");
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter");
 
 var dragunovsvuunderbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
 "angled grip", "potato grip", "skeleton grip", 
@@ -2992,8 +2996,8 @@ var sass308optics = Array("h&k sight", "full ring sight", "half ring sight",
 "m145", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "ta11 acog", "hensoldt 3x scope", "ta01 acog", "oeg", "maglite", 
 "amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", "anti sight");
 
-var sass308barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
-"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "osprey suppressor", "short barrel");
+var sass308barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster",
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "osprey suppressor", "light barrel");
 
 var sass308others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser");
 
