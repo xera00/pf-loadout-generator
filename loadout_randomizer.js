@@ -14,7 +14,7 @@ var primary = Array("ak12", "an-94", "as val", "scar-l",
 "sks", "sl-8", "vss vintorez", "msg90", "m21", "beowulf tcr", "sa58 spr", "scar ssr", "colt lmg", 
 "m60", "aug hbar", "mg36", "rpk12", "l86 lsw", "rpk", "hk21e", "scar hamr", "rpk74", "mg3kws", 
 "intervention", "model 700", "dragunov svu", "aws", "bfg 50", "awm", "trg-42", "mosin nagant", 
-"dragunov svds", "m1903", "k14", "hecate ii", "ft300", "m107", "steyr scout", "wa2000", "ntw-20", "m16a1");
+"dragunov svds", "m1903", "k14", "hecate ii", "ft300", "m107", "steyr scout", "wa2000", "ntw-20", "m16a1", "colt mars");
 
 //secondary gun list
 var secondary = Array("boxy buster", "m9", "g17", "m1911a1", 
@@ -2890,20 +2890,20 @@ var m79thumperothers = Array("flashlight", "red laser", "green laser", "blue las
 
 var m79thumperammos = Array("tracerless", "sponge", "410 beehive", "armor piercing", "buckshot", "cts sting ball", "hollow point", "flechette", "exotic slugs");
 
-//coilgun attachments
-var coilgunoptics = Array("z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", 
+//advanced coilgun attachments
+var advancedcoilgunoptics = Array("z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", 
 "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", 
 "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "microdot srs", "okp-7", "uh-1 sight", 
 "ddhb reflex", "kousaku oled sight", "c79", "pk-a", "m145", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", 
 "hensoldt z24", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "vcog 8x scope", "susat scope", "oeg", "plague insight");
 
-var coilgunbarrels = Array("recycled coil", "refined coil");
+var advancedcoilgunbarrels = Array("recycled coil", "refined coil");
 
-var coilgunothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", 
+var advancedcoilgunothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", 
 "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", 
 "canted animu sight", "canted furro sight", "full power", "low power");
 
-var coilgunammos = Array("copper discs", "gold discs", "silver discs");
+var advancedcoilgunammos = Array("copper discs", "gold discs", "silver discs");
 
 //sawed off attachments
 var sawedoffoptics = Array("h&k sight", "full ring sight", "half ring sight", "backup sight", 
@@ -5554,16 +5554,16 @@ function generateloadout()
     }
     else if (secondary_gun_selection == "advanced coilgun")
     {
-      var coilgun_optic_sel = coilgunoptics[Math.floor(Math.random()*coilgunoptics.length)];
-      var coilgun_barrel_sel = coilgunbarrels[Math.floor(Math.random()*coilgunbarrels.length)];
-      var coilgun_other_sel = coilgunothers[Math.floor(Math.random()*coilgunothers.length)];
-      var coilgun_ammo_sel = coilgunammos[Math.floor(Math.random()*coilgunammos.length)];
+      var advancedcoilgun_optic_sel = advancedcoilgunoptics[Math.floor(Math.random()*advancedcoilgunoptics.length)];
+      var advancedcoilgun_barrel_sel = advancedcoilgunbarrels[Math.floor(Math.random()*advancedcoilgunbarrels.length)];
+      var advancedcoilgun_other_sel = advancedcoilgunothers[Math.floor(Math.random()*advancedcoilgunothers.length)];
+      var advancedcoilgun_ammo_sel = advancedcoilgunammos[Math.floor(Math.random()*advancedcoilgunammos.length)];
 
       document.getElementById("weapon2").innerHTML = "secondary: " + secondary_gun_selection;
-      document.getElementById("optic2").innerHTML = "optic: " + coilgun_optic_sel;
-      document.getElementById("barrel2").innerHTML = "barrel: " + coilgun_barrel_sel;
-      document.getElementById("other2").innerHTML = "other: " + coilgun_other_sel;
-      document.getElementById("ammo2").innerHTML = "ammo: " + coilgun_ammo_sel;
+      document.getElementById("optic2").innerHTML = "optic: " + advancedcoilgun_optic_sel;
+      document.getElementById("barrel2").innerHTML = "barrel: " + advancedcoilgun_barrel_sel;
+      document.getElementById("other2").innerHTML = "other: " + advancedcoilgun_other_sel;
+      document.getElementById("ammo2").innerHTML = "ammo: " + advancedcoilgunammo_sel;
     }
     else if (secondary_gun_selection == "sawed off")
     {
