@@ -2375,7 +2375,7 @@ var automagiiibarrels = Array("flash hider", "compensator", "muzzle brake", "t-b
 
 var automagiiiothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser");
 
-var automagiiiammos = Array("armor piercing", "hollow point", "tracerless", ".45 winmag". ".50 ae");
+var automagiiiammos = Array("armor piercing", "hollow point", "tracerless", ".45 winmag", ".50 ae");
 
 //gyrojet pistol
 var gyrojetmarkioptics = Array("h&k sight", "full ring sight", "half ring sight", 
