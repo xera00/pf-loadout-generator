@@ -762,6 +762,8 @@ var stevensdbammos = Array("flechette", "birdshot", "rubber pellets", "slugs");
 //e gun attachments
 var egunoptics = Array("z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "kousaku oled sight", "c79", "pk-a", "m145", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt z24", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "vcog 8x scope", "susat scope", "oeg", "plague insight");
 
+var egunbarrels = Array("none");
+
 var egununderbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", "angled grip", "potato grip", "skeleton grip", "folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
 
 var egunothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "crowd control setup", "home defense setup");
@@ -2908,6 +2910,8 @@ var advancedcoilgunoptics = Array("z-point", "eotech xp52", "delta sight", "mars
 "ddhb reflex", "kousaku oled sight", "c79", "pk-a", "m145", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", 
 "hensoldt z24", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", "vcog 8x scope", "susat scope", "oeg", "plague insight", "handmade sight");
 
+var advancedcoilgunbarrels = Array("none");
+
 var advancedcoilgunothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", 
 "tri laser", "ballistics tracker", "canted iron sight", "canted delta sight", "canted acog sight", 
 "canted animu sight", "canted furro sight", "crowd control setup", "home defense setup");
@@ -4034,12 +4038,14 @@ function generateloadout()
     else if (primary_gun_selection == "e gun")
     {
       var egun_optic_sel = egunoptics[Math.floor(Math.random()*egunoptics.length)];
+      var egun_barrel_sel = egunbarrels[Math.floor(Math.random()*egunbarrels.length)];
       var egun_underbarrel_sel =          egununderbarrels[Math.floor(Math.random()*egununderbarrels.length)];
       var egun_other_sel = egunothers[Math.floor(Math.random()*egunothers.length)];
       var egun_ammo_sel = egunammos[Math.floor(Math.random()*egunammos.length)];
 
       document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
       document.getElementById("optic1").innerHTML = "optic: " + egun_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + egun_barrel_sel;
       document.getElementById("underbarrel1").innerHTML = "underbarrel: " + egun_underbarrel_sel;
       document.getElementById("other1").innerHTML = "other: " + egun_other_sel;
       document.getElementById("ammo1").innerHTML = "ammo: " + egun_ammo_sel;
@@ -5616,11 +5622,13 @@ function generateloadout()
     else if (secondary_gun_selection == "advanced coilgun")
     {
       var advancedcoilgun_optic_sel = advancedcoilgunoptics[Math.floor(Math.random()*advancedcoilgunoptics.length)];
+      var advancedcoilgun_barrel_sel = advancedcoilgunbarrels[Math.floor(Math.random()*advancedcoilgunbarrels.length)];
       var advancedcoilgun_other_sel = advancedcoilgunothers[Math.floor(Math.random()*advancedcoilgunothers.length)];
       var advancedcoilgun_ammo_sel = advancedcoilgunammos[Math.floor(Math.random()*advancedcoilgunammos.length)];
 
       document.getElementById("weapon2").innerHTML = "secondary: " + secondary_gun_selection;
       document.getElementById("optic2").innerHTML = "optic: " + advancedcoilgun_optic_sel;
+      document.getElementById("barrel2").innerHTML = "barrel: " + advancedcoilgun_barrel_sel;
       document.getElementById("other2").innerHTML = "other: " + advancedcoilgun_other_sel;
       document.getElementById("ammo2").innerHTML = "ammo: " + advancedcoilgun_ammo_sel;
     }
