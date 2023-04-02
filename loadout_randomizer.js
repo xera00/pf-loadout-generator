@@ -3093,6 +3093,93 @@ var bwc9others = Array("flashlight", "red laser", "green laser", "blue laser", "
 
 var bwc9ammos = Array("armor piercing", "hollow point", "tracerless", "extended mag", "reduced mag", "plus p");
 
+//five0 attachments
+var five0optics = Array("h&k sight", "full ring sight", "half ring sight", 
+"backup sight", "steyr sight", "double open sight", "izhmash sight", 
+"super slim sight", "diopter sight", "buis sight", "kel-tec sight", 
+"kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", 
+"herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", 
+"quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", 
+"z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", 
+"comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", 
+"pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", 
+"microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", 
+"m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", 
+"hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", 
+"reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", 
+"amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", 
+"anti sight", "pso-1 scope", "pso-1m2 scope");
+
+var five0barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter");
+
+var five0underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
+"angled grip", "potato grip", "skeleton grip", 
+"folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
+
+var five0others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
+"canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "full auto conv", "remove stock");
+
+var five0ammos = Array("armor piercing", "hollow point", "tracerless", ".45 acp", "9x19mm");
+
+//mgv attachments
+var mgvoptics = Array("h&k sight", "full ring sight", "half ring sight", 
+"backup sight", "steyr sight", "double open sight", "izhmash sight", 
+"super slim sight", "diopter sight", "buis sight", "kel-tec sight", 
+"kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", 
+"herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", 
+"quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", 
+"z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", 
+"comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", 
+"pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", 
+"microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", 
+"m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", 
+"hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", 
+"reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", 
+"amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", 
+"anti sight", "pso-1 scope", "pso-1m2 scope");
+
+var mgvbarrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "short barrel");
+
+var mgvunderbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
+"angled grip", "potato grip", "skeleton grip", 
+"folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
+
+var mgvothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
+"canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "fold stock");
+
+var mgvammos = Array("armor piercing", "hollow point", "tracerless");
+
+//stoner attachments
+var stoneroptics = Array("h&k sight", "full ring sight", "half ring sight", 
+"backup sight", "steyr sight", "double open sight", "izhmash sight", 
+"super slim sight", "diopter sight", "buis sight", "kel-tec sight", 
+"kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", 
+"herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", 
+"quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", 
+"z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", 
+"comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", 
+"pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", 
+"microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", 
+"m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", 
+"hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", 
+"reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", 
+"amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", 
+"anti sight", "pso-1 scope", "pso-1m2 scope");
+
+var stonerbarrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter");
+
+var stonerunderbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
+"angled grip", "potato grip", "skeleton grip", 
+"folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
+
+var stonerothers = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
+"canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight");
+
+var stonerammos = Array("armor piercing", "hollow point", "tracerless");
+
 function generateloadout()
 {
     //randomly select guns
@@ -3181,6 +3268,51 @@ function generateloadout()
       document.getElementById("underbarrel1").innerHTML = "underbarrel: " + bwc9_underbarrel_sel;
       document.getElementById("other1").innerHTML = "other: " + bwc9_other_sel;
       document.getElementById("ammo1").innerHTML = "ammo: " + bwc9_ammo_sel;
+    }
+    else if (primary_gun_selection == "five-0")
+    {
+      var five0_optic_sel = five0optics[Math.floor(Math.random()*five0optics.length)];
+      var five0_barrel_sel = five0barrels[Math.floor(Math.random()*five0barrels.length)];
+      var five0_underbarrel_sel = five0underbarrels[Math.floor(Math.random()*five0underbarrels.length)];
+      var five0_other_sel = five0others[Math.floor(Math.random()*five0others.length)];
+      var five0_ammo_sel = five0ammos[Math.floor(Math.random()*five0ammos.length)];
+
+      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
+      document.getElementById("optic1").innerHTML = "optic: " + five0_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + five0_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + five0_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + five0_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + five0_ammo_sel;
+    }
+    else if (primary_gun_selection == "mgv-176")
+    {
+      var mgv_optic_sel = mgvoptics[Math.floor(Math.random()*mgvoptics.length)];
+      var mgv_barrel_sel = mgvbarrels[Math.floor(Math.random()*mgvbarrels.length)];
+      var mgv_underbarrel_sel = mgvunderbarrels[Math.floor(Math.random()*mgvunderbarrels.length)];
+      var mgv_other_sel = mgvothers[Math.floor(Math.random()*mgvothers.length)];
+      var mgv_ammo_sel = mgvammos[Math.floor(Math.random()*mgvammos.length)];
+
+      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
+      document.getElementById("optic1").innerHTML = "optic: " + mgv_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + mgv_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + mgv_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + mgv_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + mgv_ammo_sel;
+    }
+    else if (primary_gun_selection == "stoner 96")
+    {
+      var stoner_optic_sel = stoneroptics[Math.floor(Math.random()*stoneroptics.length)];
+      var stoner_barrel_sel = stonerbarrels[Math.floor(Math.random()*stonerbarrels.length)];
+      var stoner_underbarrel_sel = stonerunderbarrels[Math.floor(Math.random()*stonerunderbarrels.length)];
+      var stoner_other_sel = stonerothers[Math.floor(Math.random()*stonerothers.length)];
+      var stoner_ammo_sel = stonerammos[Math.floor(Math.random()*stonerammos.length)];
+
+      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
+      document.getElementById("optic1").innerHTML = "optic: " + stoner_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + stoner_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + stoner_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + stoner_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + stoner_ammo_sel;
     }
     else if (primary_gun_selection == "as val")
     {
