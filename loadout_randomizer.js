@@ -14,7 +14,8 @@ var primary = Array("ak12", "an-94", "as val", "scar-l",
 "sks", "sl-8", "vss vintorez", "msg90", "m21", "beowulf tcr", "sa58 spr", "scar ssr", "colt lmg", 
 "m60", "aug hbar", "mg36", "rpk12", "l86 lsw", "rpk", "hk21e", "hamr iar", "rpk74", "mg3kws", 
 "intervention", "model 700", "dragunov svu", "aws", "bfg 50", "awm", "trg-42", "mosin nagant", 
-"dragunov svds", "m1903", "k14", "hecate ii", "ft300", "m107", "steyr scout", "wa2000", "ntw-20", "m16a1", "colt mars");
+"dragunov svds", "m1903", "k14", "hecate ii", "ft300", "m107", "steyr scout", "wa2000", "ntw-20", "m16a1", "colt mars",
+"stoner 96", "mgv-176", "bwc9 a", "five-0");
 
 //secondary gun list
 var secondary = Array("boxy buster", "m9", "g17", "m1911a1", 
@@ -3063,6 +3064,35 @@ var coltmarsothers = Array("flashlight", "red laser", "green laser", "blue laser
 
 var coltmarsammos = Array("armor piercing", "hollow point", "tracerless", "9x30mm mars");
 
+//bwc9 attachments
+var bwc9optics = Array("h&k sight", "full ring sight", "half ring sight", 
+"backup sight", "steyr sight", "double open sight", "izhmash sight", 
+"super slim sight", "diopter sight", "buis sight", "kel-tec sight", 
+"kalashnikov sight", "kac sight", "1200m sight", "h&k export sight", 
+"herstal sight", "bundeswehr sight", "iwi sight", "carry handle sight", 
+"quick-release sight", "mbus sight", "aac flip up sight", "daul aperture sight", 
+"z-point", "eotech xp52", "delta sight", "mars", "eotech 552", "mini sight", 
+"comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", 
+"pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", 
+"microdot srs", "okp-7", "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sight", "c79", "pk-a", 
+"m145", "malcolm 3x scope", "ta44 acog", "acog scope", "vcog 6x scope", "ta33 acog", "hensoldt 3x sight", 
+"hensoldt z24", "swarovski scope", "ta11 acog", "pu-1 scope", "ff 3x nv", "ta01 acog", "electra 5x", 
+"reflector scope", "vcog 8x scope", "susat scope", "global offensive scope", "oeg", "maglite", 
+"amt-terminator", "handmade sight", "plague insight", "animu sight", "furro sight", "👌👍", 
+"anti sight", "pso-1 scope", "pso-1m2 scope");
+
+var bwc9barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter", "short barrel");
+
+var bwc9underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
+"angled grip", "potato grip", "skeleton grip", 
+"folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
+
+var bwc9others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
+"canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "semi-auto conv", "burst conv");
+
+var bwc9ammos = Array("armor piercing", "hollow point", "tracerless", "extended mag", "reduced mag", "plus p");
+
 function generateloadout()
 {
     //randomly select guns
@@ -3136,6 +3166,21 @@ function generateloadout()
       document.getElementById("underbarrel1").innerHTML = "underbarrel: " + coltmars_underbarrel_sel;
       document.getElementById("other1").innerHTML = "other: " + coltmars_other_sel;
       document.getElementById("ammo1").innerHTML = "ammo: " + coltmars_ammo_sel;
+    }
+    else if (primary_gun_selection == "bwc9 a")
+    {
+      var bwc9_optic_sel = bwc9optics[Math.floor(Math.random()*bwc9optics.length)];
+      var bwc9_barrel_sel = bwc9barrels[Math.floor(Math.random()*bwc9barrels.length)];
+      var bwc9_underbarrel_sel = bwc9underbarrels[Math.floor(Math.random()*bwc9underbarrels.length)];
+      var bwc9_other_sel = bwc9others[Math.floor(Math.random()*bwc9others.length)];
+      var bwc9_ammo_sel = bwc9ammos[Math.floor(Math.random()*bwc9ammos.length)];
+
+      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
+      document.getElementById("optic1").innerHTML = "optic: " + bwc9_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + bwc9_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + bwc9_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + bwc9_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + bwc9_ammo_sel;
     }
     else if (primary_gun_selection == "as val")
     {
