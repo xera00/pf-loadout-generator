@@ -15,7 +15,7 @@ var primary = Array("ak12", "an-94", "as val", "scar-l",
 "m60", "aug hbar", "mg36", "rpk12", "l86 lsw", "rpk", "hk21e", "hamr iar", "rpk74", "mg3kws", 
 "intervention", "model 700", "dragunov svu", "aws", "bfg 50", "awm", "trg-42", "mosin nagant", 
 "dragunov svds", "m1903", "k14", "hecate ii", "ft300", "m107", "steyr scout", "wa2000", "ntw-20", "m16a1", "colt mars",
-"stoner 96", "mgv-176", "bwc9 a", "five-0");
+"stoner 96", "mgv-176", "bwc9 a", "five-0", "mg42");
 
 //secondary gun list
 var secondary = Array("boxy buster", "m9", "g17", "m1911a1", 
@@ -1477,6 +1477,29 @@ var mg3kwsothers = Array("flashlight", "red laser", "green laser", "blue laser",
 "canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "heavy bolt", "retract stock", "full stock");
 
 var mg3kwsammos = Array("armor piercing", "hollow point", "tracerless", "silent", "depleted uranium");
+
+//mg42 attachments
+var mg42optics = Array("anti-aircraft irons", "backup sight", "super slim sight", "diopter sight", "buis sight",
+                      "kel-tec sight", "kac sight", "1200m sight", "h&k export sight", "herstal sight", "iwi sight", "carry handle sight",
+                      "quick-release sight", "mbus sight", "aac flip up sight", "dual aperture sight", "z-point", "eotech xp52", "delta sight",
+                      "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", 
+                      "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "mircodot srs", "okp-7",
+                      "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sght", "c79", "pk-a", "m145", "ta44 acog", "acog scope", "ta33 acog", "hensoldt z24"
+                      "swarovski scope", "ta11 acog", "electra 5x", "reflector scope", "susat scope", "oeg", "maglite", "amt-terminator", "handmade sight", 
+                      "plauge insight", "animu sight", "furro sight", "👌👍", "anti sight");
+
+var mg42barrels = Array("flash hider", "compensator", "muzzle brake", "t-brake", "x-ring", "halbek device", "loudener", "muzzle booster", 
+"suppressor", "r2 suppressor", "ars suppressor", "pbs-1 suppressor", "pbs-4 suppressor", "muffler", "oil filter");
+
+var mg42underbarrels = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "vertical grip", 
+"angled grip", "potato grip", "skeleton grip", 
+"folding grip", "stubby grip", "pistol grip", "sideways grip", "hera cqr grip", "chainsaw grip");
+
+var mg42others = Array("flashlight", "red laser", "green laser", "blue laser", "yellow laser", "tri laser", "ballistics tracker", "canted iron sight", 
+"canted delta sight", "canted acog sight", "canted animu sight", "canted furro sight", "heavy bolt", "light bolt");
+
+var mg42ammos = Array("armor piercing", "hollow point", "tracerless");
+
 
 //intervention attachments
 var interventionoptics = Array("h&k sight", "full ring sight", "half ring sight", 
@@ -4993,6 +5016,21 @@ function generateloadout()
       document.getElementById("underbarrel1").innerHTML = "underbarrel: " + mg3kws_underbarrel_sel;
       document.getElementById("other1").innerHTML = "other: " + mg3kws_other_sel;
       document.getElementById("ammo1").innerHTML = "ammo: " + mg3kws_ammo_sel;
+    }
+    else if (primary_gun_selection == "mg42")
+    {
+      var mg42_optic_sel = mg42optics[Math.floor(Math.random()*mg42optics.length)];
+      var mg42_barrel_sel = mg42barrels[Math.floor(Math.random()*mg42barrels.length)];
+      var mg42_underbarrel_sel = mg42underbarrels[Math.floor(Math.random()*mg42underbarrels.length)];
+      var mg42_other_sel = mg42others[Math.floor(Math.random()*mg42others.length)];
+      var mg42_ammo_sel = mg42ammos[Math.floor(Math.random()*mg42ammos.length)];
+
+      document.getElementById("weapon1").innerHTML = "primary: " + primary_gun_selection;
+      document.getElementById("optic1").innerHTML = "optic: " + mg42_optic_sel;
+      document.getElementById("barrel1").innerHTML = "barrel: " + mg42_barrel_sel;
+      document.getElementById("underbarrel1").innerHTML = "underbarrel: " + mg42_underbarrel_sel;
+      document.getElementById("other1").innerHTML = "other: " + mg42_other_sel;
+      document.getElementById("ammo1").innerHTML = "ammo: " + mg42_ammo_sel;
     }
     else if (primary_gun_selection == "intervention")
     {
