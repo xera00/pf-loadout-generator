@@ -4556,7 +4556,7 @@ function generateloadout()
     {
       var auga3paraxs_optic_sel = auga3paraxsoptics[Math.floor(Math.random()*auga3paraxsoptics.length)];
       var auga3paraxs_barrel_sel = auga3paraxsbarrels[Math.floor(Math.random()*auga3paraxsbarrels.length)];
-      var auga3paraxs_underbarrel_sel = auga3paraunderbarrels[Math.floor(Math.random()*auga3paraxsunderbarrels.length)];
+      var auga3paraxs_underbarrel_sel = auga3paraxsunderbarrels[Math.floor(Math.random()*auga3paraxsunderbarrels.length)];
       var auga3paraxs_other_sel = auga3paraxsothers[Math.floor(Math.random()*auga3paraxsothers.length)];
       var auga3paraxs_ammo_sel = auga3paraxsammos[Math.floor(Math.random()*auga3paraxsammos.length)];
 
