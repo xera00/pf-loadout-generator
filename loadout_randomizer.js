@@ -1484,7 +1484,7 @@ var mg42optics = Array("anti-aircraft irons", "backup sight", "super slim sight"
                       "quick-release sight", "mbus sight", "aac flip up sight", "dual aperture sight", "z-point", "eotech xp52", "delta sight",
                       "mars", "eotech 552", "mini sight", "comp aimpoint", "pka-s", "reflex sight", "kobra sight", "coyote sight", "microdot mini", 
                       "pilad 3", "kobra ekp sight", "acro p-1 sight", "barska electro", "eotech m40", "kousaku sight", "mircodot srs", "okp-7",
-                      "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sght", "c79", "pk-a", "m145", "ta44 acog", "acog scope", "ta33 acog", "hensoldt z24"
+                      "uh-1 sight", "ddhb reflex", "dcl 120", "kousaku oled sght", "c79", "pk-a", "m145", "ta44 acog", "acog scope", "ta33 acog", "hensoldt z24",
                       "swarovski scope", "ta11 acog", "electra 5x", "reflector scope", "susat scope", "oeg", "maglite", "amt-terminator", "handmade sight", 
                       "plauge insight", "animu sight", "furro sight", "👌👍", "anti sight");
 
